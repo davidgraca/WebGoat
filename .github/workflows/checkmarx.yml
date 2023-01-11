@@ -31,4 +31,5 @@ jobs:
           cx_client_secret: ${{secrets.CHECKMARX_SECRET}}
           # Select a Checkmarx Project Name
           project_name: 'webgoat'
+          additional_params: '--debug'
   
